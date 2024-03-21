@@ -21,7 +21,7 @@ public class ListSample03 {
 	    System.out.println(list.get(i));
 	    }
 
-	    //拡張 for 文を利用するともっと簡単
+	    //拡張 for 文を利用するともっと簡単です
 	    for (String s : list) {
 	    	System.out.println(s);
 	    }
