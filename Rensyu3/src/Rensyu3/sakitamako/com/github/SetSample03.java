@@ -4,8 +4,7 @@ import java.util.HashSet;
 import java.util.Set;
 
 public class SetSample03 {
-
-    public static void main(String[] args) {
+	public static void main(String[] args) {
         Set<String> set = new HashSet<String>();
 
         //値のセットは add メソッドを利用
