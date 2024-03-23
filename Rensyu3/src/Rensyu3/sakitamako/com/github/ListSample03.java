@@ -4,7 +4,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class ListSample03 {
-	
 	public static void main(String[] args) {
 		List<String> list = new ArrayList<String>();
 		
@@ -20,9 +19,9 @@ public class ListSample03 {
 	    //値の取得は get メソッドを利用
 	    System.out.println(list.get(i));
 	    }
-
+	    
 	    //拡張 for 文を利用するともっと簡単です
-	    for (String s : list) {
+	    for (String s: list) {
 	    	System.out.println(s);
 	    }
 	    

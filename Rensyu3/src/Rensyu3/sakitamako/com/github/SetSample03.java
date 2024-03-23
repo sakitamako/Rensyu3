@@ -18,7 +18,7 @@ public class SetSample03 {
         set.add("value2"); //重複要素を add
 
         //拡張 For 文を利用
-        for (String s : set) {
+        for (String s: set) {
             System.out.println(s);
         }
         

@@ -4,16 +4,15 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class MapSample03 {
-
-    public static void main(String[] args) {
+	public static void main(String[] args) {
     	Map<String, String> map = new HashMap<String, String>();
 
         //値のセットは put メソッドを利用
-        map.put("key1","value1");
-        map.put("key2","value2");
-        map.put("key3","value3");
-        map.put("key4","value4");
-        map.put("key5","value5");
+        map.put("key1", "value1");
+        map.put("key2", "value2");
+        map.put("key3", "value3");
+        map.put("key4", "value4");
+        map.put("key5", "value5");
 
         //値の取得
         String value = map.get("key1"); //value1 が取得できる
@@ -30,7 +29,7 @@ public class MapSample03 {
         }
         
         //拡張 for 文を利用してすべて情報を取得する
-        for (Map.Entry<String,String> e : map.entrySet()) {
+        for (Map.Entry<String,String> e: map.entrySet()) {
             System.out.println(e.getKey() + ":" + e.getValue());
         }
         
